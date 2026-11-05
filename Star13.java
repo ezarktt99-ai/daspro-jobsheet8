@@ -8,8 +8,8 @@ public class Star13 {
         System.out.print("Masukkan nilai n: ");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= n; i++ ) {
-            System.out.print("*");
+        for (int i = 1; i <= n; i+= 2 ) {
+            System.out.print(1 + " ");
         }
         System.out.println();
         sc.close();
